@@ -2,18 +2,18 @@
     font-family: "Jost", sans-serif;
 }
 ::selection {
-    background: rgba(55,81,126,0.9);
+    background: rgba(38, 160, 66, 0.9);
     color: #f3f3f6;
   }
 .bgcolor{
-    background-color: #37517e;
+    background-color: rgba(38, 160, 66, 0.9);
 }
 .headbgcolor{
-    background-color:rgba(55,81,126,0.9) ;
+    background-color:rgba(38, 160, 66, 0.9) ;
 }
 .getstart:hover{
-    background-color: #269fef;
-    border:1px solid #269fef;
+    background-color: #06400a;
+    border:1px solid #06400a;
     color: white;
 }
 watchnow{
@@ -174,7 +174,7 @@ watchnow{
 }
 .accordion-button:hover{
     background-color: white;
-    color: #269fef;
+    color: #80e398;
 }
 
 .cont p{
