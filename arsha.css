@@ -121,6 +121,11 @@ watchnow{
     /* padding:100px 200px; */
     background-color:rgba(55,81,126,0.7) ;
 }
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distributes items evenly */
+  }
 #portfolio-ul{
     list-style-type: none;
     padding-inline-start: 0px;
@@ -255,9 +260,11 @@ inp:focus{
 }
 .inner-div{
     display: none;
+    width: 100%;
     position: absolute;
     bottom: 0;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 .inner-div>div{
     background-color:rgba(55,81,126,0.6) ;
@@ -273,8 +280,10 @@ inp:focus{
 }
 /* after */
 .grp-image{
-    width:  416px;
-    padding-bottom: 10px;
+    width: 100%; /* Full width of the parent container */
+  height: 250px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures images fill the space without distortion */
+  display: block;
 }
 
 .Card{
@@ -330,8 +339,10 @@ inp:focus{
         width:250px;
     }
     .grp-image{
-        width:  300px;
+        width: 100%;
         margin: 0 0px 10px 10px ;
+        height: 200px; /* Smaller height for mobile */
+        object-fit: cover;
     }
     .inner-div>div{
         width: 300px;
